@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "job-site-extract",
+    "version": "1.0",
+
+    "description": "Extracts job information and sends info to local database",
+
+    "icon": {
+	"suitcase": "icons/suitcase.png"
+    }
+
+    "content_scripts": [
+	{
+	    "matches": ["*://nucareers.northeastern.edu/myAccount/co-op/jobs.htm"],
+	    "js": ["extract.js"]
+	}
+    ]
+}
