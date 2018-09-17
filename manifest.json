@@ -7,7 +7,7 @@
 
     "icon": {
 	"suitcase": "icons/suitcase.png"
-    }
+    },
 
     "content_scripts": [
 	{
